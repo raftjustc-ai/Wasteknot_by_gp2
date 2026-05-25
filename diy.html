@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DIY Projects | Wasteknot</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/x-icon" href="img/favicon.ico?v=2">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+<style>
+body {
+    background: #f5f7fa;
+    margin: 0;
+}
+
+.hero-section {
+    margin-top: 100px;
+    text-align: center;
+    padding: 20px;
+}
+
+.section {
+    width: 100%;
+    padding: 60px 40px;
+}
+
+.section h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid currentColor;
+    padding-bottom: 12px;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 25px;
+}
+
+.card {
+    flex-direction: column;
+}
+
+.card iframe {
+    width: 100%;
+    height: 220px;
+}
+
+@media (max-width: 600px) {
+    .card-container {
+        grid-template-columns: 1fr;
+    }
+
+    .content h3 {
+        font-size: 18px;
+    }
+
+    .content .description {
+        font-size: 14px;
+    }
+}
+
+.card {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.04);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.card li {
+    border-left: none;
+    list-style-type: disc;
+}
+.card iframe {
+    width: 100%;
+    height: 320px;
+    border: none;
+}
+
+.content {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.content h3 {
+    font-size: 22px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #1e293b;
+}
+
+.content .description {
+    font-size: 15px;
+    color: #64748b;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.content ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.content li {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 6px 0;
+    width: auto;
+    line-height: 1.6;
+}
+
+.content li.benefit {
+    list-style-type: none;
+    font-weight: bold;
+    color: #27ae60;
+    margin-top: 15px;
+    padding-left: 0;
+}
+
+.food h2 { color: #27ae60; }
+.water h2 { color: #2980b9; }
+.clothing h2 { color: #8e44ad; }
+.water li.benefit { color: #2980b9; }
+.clothing li.benefit { color: #8e44ad; }
+
+</style>
+</head>
+
+<body>
+<header>
+  <div class="logo">
+    <img src="img/icon.png" alt="Wasteknot Logo">
+  </div>
+
+  <input type="checkbox" id="menu-btn" class="menu-checkbox">
+
+  <label Kakao for="menu-btn" class="menu-toggle">
+    <i class="fas fa-bars icon-burger"></i>
+    <i class="fas fa-xmark icon-close"></i>
+  </label>
+
+  <nav class="nav-menu">
+    <a href="index.html" class="active">Home</a>
+<div class="dropdown">
+  <input type="checkbox" id="drop-check" class="dropdown-checkbox">
+  <label for="drop-check" class="dropbtn">
+    Waste <i class="fas fa-chevron-down drop-arrow"></i>
+  </label>
+  <div class="dropdown-content">
+    <a href="waste.html#food">Food Waste</a>
+    <a href="waste.html#water">Water Waste</a>
+    <a href="waste.html#clothing">Clothing Waste</a>
+  </div>
+</div>
+    </div>
+    <a href="solution.html">Smart Solutions</a>
+    <a href="diy.html">DIY</a>
+    <a href="news.html">News</a>
+    <a href="about.html">About us</a>
+    <a href="contact.html">Contact Us</a>
+  </nav>
+</header>
+
+    <section class="page-header">
+        <div class="content">
+            <h1>DIY Waste Solutions</h1>
+            <p>Turn everyday waste into useful, creative, and eco-friendly projects. Learn how to drastically reduce your footprint at home using simple, step-by-step upcycling ideas.</p>
+        </div>
+    </section>
+
+<div class="section food">
+    <h2>Food Waste DIY</h2>
+    <div class="card-container">
+        <div class="card">
+            <iframe src="https://www.youtube.com/embed/1hyQscoaGhw" allowfullscreen></iframe>
+            <div class="content">
+                <h3>Biogas from Food Waste at Home</h3>
+                <p class="description">Learn how to build a miniature backyard anaerobic system that traps gas emitted by decaying food and cycles it straight into clean household cooking fuel.</p>
+                <ul>
+                    <li>Mix soft food scraps with water</li>
+                    <li>Seal in an airtight container/digester</li>
+                    <li>Let bacteria ferment food without oxygen</li>
+                    <li>Trap and collect the rising methane gas</li>
+                    <li>Hook up tube to an outdoor camp burner</li>
+                    <li class="benefit">Why it helps: Converts trash into clean, free renewable cooking energy.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="card">
+            <iframe src="https://www.youtube.com/embed/rZX5FpgrOI0?si=CMs2S_LjxlW4ALiZ" allowfullscreen></iframe>
+            <div class="content">
+                <h3>DIY Scrap Apple Vinegar</h3>
+                <p class="description">Transform thrown-away fruit cores, peels, and bruised segments into a functional, live-culture fruit vinegar using simple pantry staples.</p>
+                <ul>
+                    <li>Save your apple cores and leftover peels</li>
+                    <li>Submerge them completely in clean sugar-water</li>
+                    <li>Cover jar with a cloth and sit in a dark place</li>
+                    <li>Stir daily, strain solids out after 3 weeks</li>
+                    <li>Let liquid sit another 3 weeks to turn sour</li>
+                    <li class="benefit">Why it helps: Gives fruit scraps a second life as an organic cleaning or cooking glaze.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="section water">
+    <h2>Water Waste DIY</h2>
+    <div class="card-container">
+        <div class="card">
+            <iframe src="https://www.youtube.com/embed/ksOr7lX_RVU" allowfullscreen></iframe>
+            <div class="content">
+                <h3>DIY Atmospheric Water Generator</h3>
+                <p class="description">An innovative technical project that condenses natural ambient humidity from the air around you into usable, clean fresh water.</p>
+                <ul>
+                    <li>Set up a cooling coil mechanism or condenser system</li>
+                    <li>Use a fan to pull humid room air across the cold coils</li>
+                    <li>Let the natural condensation accumulate in a basin</li>
+                    <li>Run gathered moisture through a basic charcoal filter</li>
+                    <li class="benefit">Why it helps: Extracts usable water directly out of the air using zero external plumbing grids.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="card">
+            <iframe src="https://www.youtube.com/embed/3uzXeCnzf0c" allowfullscreen></iframe>
+            <div class="content">
+                <h3>DIY Water Filter</h3>
+                <p class="description">Create a simple mechanical filter container utilizing natural environmental textures to filter out sediments and particulates from heavy graywater.</p>
+                <ul>
+                    <li>Cut the bottom off a clean plastic water bottle</li>
+                    <li>Flip it upside down and layer cotton pads at the neck</li>
+                    <li>Add layers of activated charcoal, sand, and fine gravel</li>
+                    <li>Pour graywater or rainwater through the top layers</li>
+                    <li class="benefit">Why it helps: Cleans dirt out of stagnant water so it can safely irrigate urban plants.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="section clothing">
+    <h2>Clothing Waste DIY</h2>
+    <div class="card-container">
+        <div class="card">
+            <iframe src="https://www.youtube.com/embed/3ghGkYQjib8" allowfullscreen></iframe>
+            <div class="content">
+                <h3>DIY Scrunchies</h3>
+                <p class="description">A fun, entry-level upcycling project that rescues small strips of patterned or colored fabric scraps and repurposes them into comfortable hair ties.</p>
+                <ul>
+                    <li>Cut out thin strips of fabric from old t-shirt sleeves</li>
+                    <li>Fold the fabric strips over and stitch into a tube shape</li>
+                    <li>Feed a loop of elastic band through the hollow center</li>
+                    <li>Tie the elastic ends securely and sew the fabric closed</li>
+                    <li class="benefit">Why it helps: Rescues damaged cotton textiles from landfills to make stylish accessories.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="card">
+            <iframe src="https://www.youtube.com/embed/rDIea-ldrJU" allowfullscreen></iframe>
+            <div class="content">
+                <h3>DIY Handy Tote Bag</h3>
+                <p class="description">Quickly construct a sturdy, reusable grocery bag out of old graphic t-shirts using an incredibly simple no-sew tying technique.</p>
+                <ul>
+                    <li>Lay an old t-shirt flat and cut off both sleeves</li>
+                    <li>Cut out a deeper circle around the shirt neckline</li>
+                    <li>Cut 2-inch vertical fringe strips along the bottom hem</li>
+                    <li>Tie the matching front and back fringe strips together firmly</li>
+                    <li class="benefit">Why it helps: Replaces single-use plastic grocery bags using old clothing without needing a sewing machine.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer>
+  <div class="footer-container">
+    
+    <div class="footer-box">
+      <h2>CONTACT US</h2>
+      <p>
+        <strong>Address:</strong><br>
+        No. (A-33), Padonmar Street, Thuwanna (24) Ward, Thingangyun Township.
+      </p>
+      <br>
+      <p>
+        <strong>Phone:</strong><br>
+        09 55767138
+      </p>
+      <br>
+      <p>
+        <strong>Email:</strong><br>
+        wasteknot@gmail.com
+      </p>
+    </div>
+     
+    <div class="footer-box">
+      <h2>LINKS</h2>
+      <a href="index.html">Home</a>
+      <a href="waste.html">Waste</a>
+      <a href="solution.html">Smart Solutions</a>
+      <a href="diy.html">DIY</a>
+      <a href="news.html">News</a>
+      <a href="about.html">About us</a>
+      <a href="contact.html">Contact us</a>
+    </div>
+     
+    <div class="footer-box">
+      <h2>CATEGORIES</h2>
+      <a href="waste.html#food">Food waste</a>
+      <a href="waste.html#water">Water Waste</a>
+      <a href="waste.html#clothing">Clothing waste</a>
+      <a href="reference.html">References</a>
+    </div>
+     
+    <div class="footer-box">
+      <h2>FOLLOW US</h2>
+      <div class="social-icons">
+        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="#" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+        <a href="#" aria-label="Youtube"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+     
+  </div>
+   
+  <div class="footer-bottom">
+    &copy; 2026. All rights reserved | WasteKnot
+  </div>
+</footer>
+
+</body>
+</html>

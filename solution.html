@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Smart Solutions</title>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" type="image/x-icon" href="img/favicon.ico?v=2">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+<style>
+body {
+    background: #f5f7fa;
+    margin: 0;
+}
+.container {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 25px;
+}
+.card {
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+.card:hover {
+    transform: translateY(-5px);
+}
+.card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+.content {
+    padding: 20px;
+}
+h2 {
+    color: darkblue;
+    margin-top: 0;
+}
+h3 {
+    color: deepskyblue;
+}
+p {
+    line-height: 1.6;
+}
+.citation {
+    font-size: 12px;
+    color: #555;
+    margin: 5px 15px 0;
+}
+.citation a {
+    color: #33bef5;
+    text-decoration: none;
+}
+.citation a:hover {
+    text-decoration: underline;
+}
+</style>
+
+</head>
+
+<body>
+<header>
+  <div class="logo">
+    <img src="img/icon.png" alt="Wasteknot Logo">
+  </div>
+
+  <input type="checkbox" id="menu-btn" class="menu-checkbox">
+
+  <label Kakao for="menu-btn" class="menu-toggle">
+    <i class="fas fa-bars icon-burger"></i>
+    <i class="fas fa-xmark icon-close"></i>
+  </label>
+
+  <nav class="nav-menu">
+    <a href="index.html" class="active">Home</a>
+<div class="dropdown">
+  <input type="checkbox" id="drop-check" class="dropdown-checkbox">
+  <label for="drop-check" class="dropbtn">
+    Waste <i class="fas fa-chevron-down drop-arrow"></i>
+  </label>
+  <div class="dropdown-content">
+    <a href="waste.html#food">Food Waste</a>
+    <a href="waste.html#water">Water Waste</a>
+    <a href="waste.html#clothing">Clothing Waste</a>
+  </div>
+</div>
+    </div>
+    <a href="solution.html">Smart Solutions</a>
+    <a href="diy.html">DIY</a>
+    <a href="news.html">News</a>
+    <a href="about.html">About us</a>
+    <a href="contact.html">Contact Us</a>
+  </nav>
+</header>
+<section class="page-header">
+    <div class="content">
+    <h1>Smart Solutions for Waste</h1>
+    <p>Welcome to the future of urban living. Here, we explore how cutting-edge innovation and eco-friendly machinery work hand-in-hand to eliminate pollution. 
+    From turning food scraps into rich soil to extracting pure drinking water from thin air, these smart solutions are designed to protect our natural ecosystems,
+     reduce landfill burdens, and build a truly resilient, self-sustaining world for generations to come.</p>
+     </div>
+</section>
+
+<div class="container">
+
+    <div class="card">
+        <img src="img/foodmachine 1.png" alt="Compost Machine">
+        <p class="citation">
+            Source: <a href="https://www.kelvinindia.in/blog/food-waste-composting-machine/" target="_blank">
+            Kelvin India
+        </a>
+        </p>
+
+        <div class="content">
+            <h2>Food Compost Machine</h2>
+            <p>
+                Food waste is a big problem because lots of food is thrown away.
+                This smart compost machine turns food scraps into compost for plants.
+            </p>
+            <br>
+            <h3>Why is it Sustainable?</h3>
+            <ul>
+                <li>Reduces food waste</li>
+                <li>Makes natural fertilizer</li>
+                <li>Helps lower pollution</li>
+            </ul>
+
+            <h3>Why is it Smart?</h3>
+            <ul>
+                <li>Uses smart sensors</li>
+                <li>Works automatically</li>
+                <li>Saves time and energy</li>
+            </ul>
+        </div>
+    </div>
+    <div class="card">
+        <img src="img/watergenerator 1.webp" alt="Water Generator">
+            <p class="citation">
+                Source: <a href="https://genaq.com/" target="_blank">
+                GENAQ
+                </a>
+            </p>
+        <div class="content">
+            <h2>Air-to-Water Generator</h2>
+            <p>
+                This machine collects water from the air and turns it into clean drinking water.
+                It helps people save water and helps places with water shortages.
+            </p>
+            <br>
+            <h3>Why is it Sustainable?</h3>
+            <ul>
+                <li>Saves natural water sources</li>
+                <li>Can use solar power</li>
+                <li>Provides clean water</li>
+            </ul>
+
+            <h3>Why is it Smart?</h3>
+            <ul>
+                <li>Uses technology to collect water</li>
+                <li>Filters water automatically</li>
+                <li>Needs little human help</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="img/clothingbin 1.jpg" alt="Smart Clothing Bin">
+        <p class="citation">
+            Source: <a href="https://www.telekom.com/en/media/media-information/archive/circular-economy-for-smart-textile-recycling-with-partners-1028948" target="_blank">
+            Telekom
+        </a>
+        </p>
+        <div class="content">
+            <h2>IoT Smart Clothing Bin</h2>
+            <p>
+                Many clothes are thrown away even when they can still be reused.
+                This smart clothing bin helps recycle and donate clothes.
+            </p>
+            <br>
+            <h3>Why is it Sustainable?</h3>
+            <ul>
+                <li>Reduces clothing waste</li>
+                <li>Encourages recycling</li>
+                <li>Saves resources</li>
+            </ul>
+
+            <h3>Why is it Smart?</h3>
+            <ul>
+                <li>Uses IoT sensors</li>
+                <li>Sends automatic updates</li>
+                <li>Makes collection easier</li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+
+<footer>
+  <div class="footer-container">
+    
+    <div class="footer-box">
+      <h2>CONTACT US</h2>
+      <p>
+        <strong>Address:</strong><br>
+        No. (A-33), Padonmar Street, Thuwanna (24) Ward, Thingangyun Township.
+      </p>
+      <br>
+      <p>
+        <strong>Phone:</strong><br>
+        09 55767138
+      </p>
+      <br>
+      <p>
+        <strong>Email:</strong><br>
+        wasteknot@gmail.com
+      </p>
+    </div>
+     
+    <div class="footer-box">
+      <h2>LINKS</h2>
+      <a href="index.html">Home</a>
+      <a href="waste.html">Waste</a>
+      <a href="solution.html">Smart Solutions</a>
+      <a href="diy.html">DIY</a>
+      <a href="news.html">News</a>
+      <a href="about.html">About us</a>
+      <a href="contact.html">Contact us</a>
+    </div>
+     
+    <div class="footer-box">
+      <h2>CATEGORIES</h2>
+      <a href="waste.html#food">Food waste</a>
+      <a href="waste.html#water">Water Waste</a>
+      <a href="waste.html#clothing">Clothing waste</a>
+      <a href="reference.html">References</a>
+    </div>
+     
+    <div class="footer-box">
+      <h2>FOLLOW US</h2>
+      <div class="social-icons">
+        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="#" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+        <a href="#" aria-label="Youtube"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+     
+  </div>
+   
+  <div class="footer-bottom">
+    &copy; 2026. All rights reserved | WasteKnot
+  </div>
+</footer>
+
+</body>
+</html>

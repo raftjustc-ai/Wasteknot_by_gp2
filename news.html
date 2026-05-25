@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wasteknot | Eco-News Hub</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/x-icon" href="img/favicon.ico?v=2">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    
+    body {
+      background: #f5f7fa;
+      padding-top: 110px; 
+      font-family: Arial, sans-serif;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+  </style>
+</head>
+<body>
+<header>
+  <div class="logo">
+    <img src="img/icon.png" alt="Wasteknot Logo">
+  </div>
+
+  <input type="checkbox" id="menu-btn" class="menu-checkbox">
+
+  <label Kakao for="menu-btn" class="menu-toggle">
+    <i class="fas fa-bars icon-burger"></i>
+    <i class="fas fa-xmark icon-close"></i>
+  </label>
+
+  <nav class="nav-menu">
+    <a href="index.html" class="active">Home</a>
+<div class="dropdown">
+  <input type="checkbox" id="drop-check" class="dropdown-checkbox">
+  <label for="drop-check" class="dropbtn">
+    Waste <i class="fas fa-chevron-down drop-arrow"></i>
+  </label>
+  <div class="dropdown-content">
+    <a href="waste.html#food">Food Waste</a>
+    <a href="waste.html#water">Water Waste</a>
+    <a href="waste.html#clothing">Clothing Waste</a>
+  </div>
+</div>
+    </div>
+    <a href="solution.html">Smart Solutions</a>
+    <a href="diy.html">DIY</a>
+    <a href="news.html">News</a>
+    <a href="about.html">About us</a>
+    <a href="contact.html">Contact Us</a>
+  </nav>
+</header>
+
+
+  <div class="news-container">
+    
+    <main class="main-feed">
+      
+      <article class="news-post" id="fashion-news">
+        <h1 class="main-title">Unsustainable Fashion and Textiles Focus of International Day of Zero Waste</h1>
+        <div class="main-meta">
+          Source: <strong>United Nations Environment Programme (UNEP)</strong>
+        </div>
+        <div class="main-image-wrapper">
+          <img src="img/newsclothes.jpg" alt="Textile waste heaps">
+        </div>
+        <div class="main-content">
+          <p>The global clothing industry has experienced unprecedented growth over the last two decades, driven heavily by the rise of fast-fashion production business models. According to reports highlighted by the United Nations Environment Programme (UNEP) during the International Day of Zero Waste, the fashion sector is now responsible for massive global environmental strain, consuming vast natural resources and outputting immense amounts of waste directly into local landfills. Because modern apparel relies heavily on synthetic fibers like polyester, which can take hundreds of years to biodegrade, municipal solid waste streams are becoming overwhelmed with discarded clothing that pollutes soil and local water tables.</p>
+          <p>To establish a sustainable smart city, urban planners and environmental teams must implement advanced circular textile networks. This involves setting up local garment tracking software, creating community upcycling swap hubs, and mandating source-separation for old textiles. By transforming fabric waste back into usable consumer assets or building insulation, cities can stop millions of tons of trash from occupying clean public lands and significantly lower carbon emissions caused by incinerating old, synthetic clothes.</p>
+        </div>
+      </article>
+
+      <article class="news-post" id="food-news">
+        <h1 class="main-title">Around 19 Percent of Food Wasted Globally as Chronic Hunger Persists</h1>
+        <div class="main-meta">
+          Source: <strong>UN Food Waste Index Report / PBS NewsHour</strong>
+        </div>
+        <div class="main-image-wrapper">
+          <img src="img/newsfood.jpg" alt="Urban organic waste heaps">
+        </div>
+        <div class="main-content">
+          <p>A staggering new report released by the United Nations confirms that approximately 19 percent of all food produced globally for human consumption ends up being thrown directly into garbage bins. This massive loss occurs across retail centers, food service restaurants, and private households at a time when over 783 million people worldwide suffer from chronic hunger. Food waste isn't just a humanitarian tragedy; it is an environmental disaster. When organic food scraps break down inside tightly packed municipal landfills, they generate large quantities of methane gas, a greenhouse gas that rapidly accelerates climate damage.</p>
+          <p>Smart cities can tackle this problem through smart database tracking and localized agricultural networks. Using supply chain tracking apps, supermarkets can instantly share near-expiry surplus items with local charities or food banks instead of trashing them. For food that cannot be eaten, smart neighborhoods must install decentralized composting units to recycle organic materials back into nutrient-rich fertilizers, building a true zero-waste food loop right inside urban borders.</p>
+        </div>
+      </article>
+
+      <article class="news-post" id="water-news">
+        <h1 class="main-title">The Impact of Wastewater Infrastructure on Sustainable Urban Development</h1>
+        <div class="main-meta">
+          Source: <strong>TVC News Expert Forum</strong>
+        </div>
+        <div class="main-image-wrapper">
+          <img src="img/newswater.jpg" alt="Wastewater treatment framework">
+        </div>
+        <div class="main-content">
+          <p>Unmanaged wastewater poses an immediate threat to modern urban health and city development. Environmental data highlights that rapidly expanding cities often fail to maintain functional centralized wastewater treatment plants, allowing heavy chemical dyes from textile factories and untreated domestic sewage to run openly into regional drainage canals. When these toxic liquids escape, they seep directly into shallow groundwater reserves or travel downstream to contaminate oceans, destroying coastal fisheries and spreading severe waterborne illnesses like E. coli through household borehole water lines.</p>
+          <p>A smart city solution to this issue requires strict regulatory enforcement alongside decentralized engineering systems. Rather than counting on aging, centralized city pipes, modern housing developments should be mandated to integrate containerized or localized wastewater purification systems on-site before construction permits are given. By utilizing IoT flow sensors to catch invisible pipe leaks early and cycling recycled wastewater back into public park irrigation systems, smart cities can protect vital drinking water reserves and safeguard public economic health.</p>
+        </div>
+      </article>
+
+    </main>
+
+    <aside class="sidebar">
+      <div class="sidebar-heading">Latest News</div>
+      <div class="sidebar-list">
+        
+        <a href="#fashion-news" class="sidebar-link">
+          <img src="img/newsclothes.jpg" alt="Fashion Waste Link">
+          <h4>Global Textile & Fashion Crisis</h4>
+          <p>UNEP targets unsustainable fast fashion as millions of tons of synthetic apparel overwhelm local municipal landfills.</p>
+        </a>
+
+        <a href="#food-news" class="sidebar-link">
+          <img src="img/newsfood.jpg" alt="Food Waste Link">
+          <h4>19% of Global Food is Wasted</h4>
+          <p>New UN data shows shocking food waste at home and retail while 783 million people face hunger.</p>
+        </a>
+
+        <a href="#water-news" class="sidebar-link">
+          <img src="img/newswater.jpg" alt="Wastewater Link">
+          <h4>Urban Wastewater Challenges</h4>
+          <p>Why modern smart cities must require localized treatment plants to stop factory toxins from ruining clean groundwater reserves.</p>
+        </a>
+
+      </div>
+    </aside>
+
+  </div>
+
+  <footer>
+    <div class="footer-container">
+      
+      <div class="footer-box">
+        <h2>CONTACT US</h2>
+        <p>
+          <strong>Address:</strong><br>
+          No. (A-33), Padonmar Street, Thuwanna (24) Ward, Thingangyun Township.
+        </p>
+        <br>
+        <p>
+          <strong>Phone:</strong><br>
+          09 55767138
+        </p>
+        <br>
+        <p>
+          <strong>Email:</strong><br>
+          wasteknot@gmail.com
+        </p>
+      </div>
+       
+      <div class="footer-box">
+        <h2>LINKS</h2>
+        <a href="index.html">Home</a>
+        <a href="waste.html">Waste</a>
+        <a href="solution.html">Smart Solutions</a>
+        <a href="diy.html">DIY</a>
+        <a href="news.html">News</a>
+        <a href="about.html">About us</a>
+        <a href="contact.html">Contact us</a>
+      </div>
+       
+      <div class="footer-box">
+        <h2>CATEGORIES</h2>
+        <a href="waste.html#food">Food waste</a>
+        <a href="waste.html#water">Water Waste</a>
+        <a href="waste.html#clothing">Clothing waste</a>
+        <a href="reference.html">References</a>
+      </div>
+       
+      <div class="footer-box">
+        <h2>FOLLOW US</h2>
+        <div class="social-icons">
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+          <a href="#" aria-label="Youtube"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+       
+    </div>
+     
+    <div class="footer-bottom">
+      &copy; 2026. All rights reserved | WasteKnot
+    </div>
+  </footer>
+</body>
+</html>
