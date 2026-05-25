@@ -149,7 +149,7 @@ nav a.active {
 
 .hero {
     height: 100vh;
-    background: url("img/cloud.jpg") no-repeat center/cover;
+    background: url("cloud.jpg") no-repeat center/cover;
     display: flex;
     align-items: center;
     padding-left: 80px;
@@ -555,7 +555,7 @@ li strong {
 
 .about-hero {
     height: 500px;
-    background: url("img/greencity.jpg") no-repeat center center/cover;
+    background: url("greencity.jpg") no-repeat center center/cover;
     display: flex;
     justify-content: center;
     align-items: center;
